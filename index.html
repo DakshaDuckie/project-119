@@ -42,11 +42,14 @@
 <h1>Quick Draw
 <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketch</button>
   </h1>
- <span> <p>Your Sketch: </p> <p id="sketch_name"></p></span> 
- <span> <p>Confidence: </p> <p id="confi_label"></p></span> 
- <br>
- <button class="btn btn-primary" onclick="clearCanvas()">Clear Canvas</button>`
+  <p id="your_sketch">Your Sketch: </p>
+  <p id="confidence">Confidence: </p>
+  <p id="sketch_to_be_drawn">Sketch To Be Drawn: </p>
+
+  <button class="btn btn-primary" onclick="clearCanvas()">Clear Canvas</button>
 </center> 
+<span id="score">Score: </span>
+<span id="timer"">Timer: </span>
 <script src="main.js"></script>
 </body>
 

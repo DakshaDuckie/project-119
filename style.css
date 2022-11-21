@@ -30,8 +30,3 @@ p{
     font-size: 25px;
     color: rgb(0, 60, 255);
 }
-
-canvas{
-    border: 15px double rgb(0, 69, 160);
-    margin-top: 70px
-  }
